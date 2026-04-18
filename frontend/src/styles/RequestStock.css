@@ -1,0 +1,112 @@
+/* Reuse the exact styles from your snippets for consistency */
+
+.item-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  background: #ffffff;
+  padding: 2rem 0; /* Adjusted since it's inside a card now */
+  margin-bottom: 1rem;
+}
+
+/* .item-form input {
+  flex: 1 1 calc(40% - 2rem);
+  min-width: 15rem;
+  padding: 1.4rem 0;
+  border: none;
+  border-bottom: 0.2rem solid #dde0e4;
+  font-size: 1.4rem;
+  background: transparent;
+  transition: all 0.3s ease;
+} */
+
+.item-form input:focus {
+  outline: none;
+  border-bottom-color: #10b981;
+  transform: translateY(-1px);
+}
+
+.add-btn {
+  background-color: #1e293b;
+  color: white;
+  border: none;
+  padding: 1rem 2.5rem;
+  border-radius: 0.8rem;
+  font-weight: 600;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.add-btn:hover {
+  background-color: #2d3748;
+  transform: translateY(-1px);
+}
+
+/* Badge Styles from your snippet */
+.type-badge {
+  padding: 0.4rem 1.2rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.type-new {
+  background-color: #e0f2fe;
+  color: #0369a1;
+  border: 1px solid #bae6fd;
+}
+
+.type-restock {
+  background-color: #fef3c7;
+  color: #92400e;
+  border: 1px solid #fde68a;
+}
+
+.qty-added-badge {
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.qty-pos {
+  background-color: #ecfdf5;
+  color: #10b981;
+}
+
+/* Action Buttons from your snippet */
+.qty-approve-btn {
+  background-color: #2ecc71;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 0.8rem;
+  font-size: 1.2rem;
+  border: none;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.delete-btn {
+  background: #db2525;
+  color: #fff;
+  border: 0.1rem solid #fecaca;
+  cursor: pointer;
+  border-radius: 0.8rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 0.6rem 1.2rem;
+}
+
+.action-cell {
+  display: flex;
+  align-items: center;
+}
+
+.no-results-text {
+  color: #94a3b8;
+  font-style: italic;
+  font-size: 1.4rem;
+  text-align: center;
+  padding: 2rem;
+}

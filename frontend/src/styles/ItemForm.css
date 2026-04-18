@@ -1,0 +1,136 @@
+/* Main Layout */
+.inventory-container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+  font-family:
+    "Inter",
+    -apple-system,
+    sans-serif;
+  color: #2d3748;
+}
+
+.item-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  background: #ffffff;
+  padding: 3.2rem;
+  border-radius: 0.8rem;
+  border: 1px solid #f0f0f0;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.06);
+  margin-bottom: 4rem;
+}
+
+.item-form input {
+  flex: 1 1 calc(25% - 2rem);
+  min-width: 18rem;
+  padding: 1.4rem 1rem;
+  border: none;
+  border-bottom: 0.2rem solid #dde0e4;
+  font-size: 1.4rem;
+  background: transparent;
+  transition: all 0.3s ease;
+}
+
+.item-form input:focus {
+  outline: none;
+  border-bottom-color: #10b981;
+  transform: translateY(-1px);
+}
+
+.item-form input::placeholder {
+  color: #a0aec0;
+  font-weight: 400;
+}
+
+.add-btn {
+  align-items: center;
+  margin-top: 10px;
+  background-color: #1e293b;
+  color: white;
+  border: none;
+  padding: 1.6rem;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  letter-spacing: 0.025em;
+}
+
+.add-btn:hover {
+  background-color: #2d3748;
+  box-shadow: 0 0.5rem 1.2rem rgba(0, 0, 0, 0.1);
+  transform: translateY(-1px);
+}
+
+.inventory-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+/* .inventory-table th {
+  text-align: left;
+  padding: 16px;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #718096;
+  border-bottom: 1px solid #edf2f7;
+} */
+
+/* .inventory-table td {
+  padding: 20px 16px;
+  border-bottom: 1px solid #f7fafc;
+  font-size: 0.95rem;
+} */
+
+/* .inventory-table tr:hover {
+  background-color: #f8fafc;
+} */
+
+/* .serial-text {
+  font-family: "Roboto Mono", monospace;
+  font-size: 0.85rem;
+  color: #4a5568;
+  background: #f1f5f9;
+  padding: 2px 6px;
+  border-radius: 4px;
+} */
+
+.form-grid select {
+  padding: 1.2rem;
+  border: none;
+  border-radius: 6px;
+  background-color: #fff;
+  cursor: pointer;
+  outline: none;
+  appearance: none;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23666' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  background-size: 14px;
+  padding-right: 3.5rem;
+
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.form-grid select:invalid,
+.form-grid select option[value=""] {
+  color: #a0aec0;
+}
+
+.form-grid select option {
+  color: #333;
+  background-color: #fff;
+}
+.total-price {
+  background-color: #f0f4f8;
+  font-weight: bold;
+  color: #2d3748;
+  border: 1px solid #cbd5e0;
+}

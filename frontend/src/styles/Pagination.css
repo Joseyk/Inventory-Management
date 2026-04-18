@@ -1,0 +1,51 @@
+.pagination-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  border-top: 1px solid #eee;
+  background: #fff;
+}
+
+.page-numbers {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.pag-btn {
+  padding: 0.6rem 1.2rem;
+  border: 1px solid #e0e0e0;
+  background: white;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #555;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+.pag-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.page-num {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  background: #f8f9fa;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.page-num.active {
+  background: #1b4d3e; /* Matches your sidebar theme */
+  color: white;
+}
+
+.page-num:hover:not(.active) {
+  background: #e9ecef;
+}

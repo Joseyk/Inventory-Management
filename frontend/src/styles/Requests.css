@@ -1,0 +1,142 @@
+.available-section,
+.status-section {
+  margin-top: 2rem;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 0.8rem;
+  box-shadow: 0 0.4rem 2rem rgba(0, 0, 0, 0.05);
+}
+
+.item-info-wrapper {
+  background: #f8fafc;
+  padding: 0.8rem;
+  border-radius: 0.8rem;
+  border: 0.1rem solid #f1f5f9;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  min-width: 150px;
+}
+
+.req-item {
+  background-color: #10b981;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 1.2rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.8rem 1.5rem;
+  border-radius: 0.8rem;
+  color: #fff;
+  transition: all 0.2s ease;
+}
+
+.req-item-name {
+  font-weight: 700;
+  color: #34445c;
+  font-size: 1.4rem;
+}
+
+.type-tag {
+  font-size: 1rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.2rem 0.6rem;
+  border-radius: 0.8rem;
+  width: fit-content;
+}
+
+.tag-buy {
+  background: #deebff;
+  color: #285fb3;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.tag-stock {
+  background: #e3fcef;
+  color: #0e8d63;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.status-pill {
+  padding: 0.6rem 1.2rem;
+  border-radius: 0.8rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+  display: inline-block;
+  min-width: 5rem;
+  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.05);
+  border: 0.1rem solid transparent;
+}
+
+.pill-pending {
+  background: #fff7ed;
+  color: #c2410c;
+  border-color: #ffedd5;
+}
+.pill-accepted {
+  background: #eff6ff;
+  color: #1d4ed8;
+  border-color: #dbeafe;
+}
+.pill-approved {
+  background: #f0fdf4;
+  color: #15803d;
+  border-color: #dcfce7;
+}
+.pill-released {
+  background: #f8fafc;
+  color: #475569;
+  border-color: #e2e8f0;
+}
+.pill-rejected {
+  background: #fef2f2;
+  color: #b91c1c;
+  border-color: #fee2e2;
+}
+.pill-canceled {
+  background: #f1f5f9;
+  color: #64748b;
+  border-color: #e2e8f0;
+}
+
+.timestamp-history {
+  display: flex;
+  flex-direction: column;
+  background: #f8fafc;
+  padding: 0.8rem;
+  border-radius: 0.8rem;
+  margin-top: 0.5rem;
+  border: 0.1rem solid #f1f5f9;
+}
+
+.timestamp-history small {
+  font-size: 1rem;
+  color: #64748b;
+  line-height: 1.4;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.text-muted {
+  color: #94a3b8;
+  font-style: italic;
+  font-size: 1.2rem;
+}
+
+.approver-text {
+  font-weight: 500;
+  color: #334155;
+}
+.req-not {
+  display: block;
+  font-size: 10px;
+  color: #dc2626;
+  font-weight: bold;
+}

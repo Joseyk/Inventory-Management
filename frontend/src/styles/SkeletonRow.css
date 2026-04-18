@@ -1,0 +1,42 @@
+.skeleton-row .skeleton-text,
+.skeleton-row .skeleton-pill,
+.skeleton-row .skeleton-btn {
+  background: #eee;
+  background: linear-gradient(110deg, #ececec 8%, #f5f5f5 18%, #ececec 33%);
+  border-radius: 4px;
+  background-size: 200% 100%;
+  animation: shine 1.5s linear infinite;
+}
+
+@keyframes shine {
+  to {
+    background-position-x: -200%;
+  }
+}
+
+.skeleton-text {
+  height: 14px;
+  width: 80%;
+  margin: 5px 0;
+}
+
+.skeleton-title {
+  height: 18px;
+  width: 60%;
+}
+.skeleton-subtitle {
+  height: 10px;
+  width: 40%;
+}
+.skeleton-pill {
+  height: 24px;
+  width: 70px;
+  border-radius: 20px;
+}
+.skeleton-btn {
+  height: 32px;
+  width: 100px;
+}
+.small {
+  width: 30px;
+}

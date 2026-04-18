@@ -1,0 +1,33 @@
+.type-new {
+  background-color: #e0f2fe;
+  color: #0369a1;
+  border: 1px solid #bae6fd;
+}
+
+.type-restock {
+  background-color: #fef3c7;
+  color: #92400e;
+  border: 1px solid #fde68a;
+}
+.type-issue {
+  color: #fef3c7;
+  background-color: #92400e;
+  border: 1px solid #92400e;
+}
+
+.type-badge {
+  padding: 0.4rem 1.2rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.no-results-text {
+  color: #94a3b8;
+  font-style: italic;
+  font-size: 1.4rem;
+  text-align: center;
+}
+.qty-neg {
+  color: #ef4444;
+}

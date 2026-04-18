@@ -1,0 +1,129 @@
+.settings-container {
+  max-width: 850rem;
+  margin: 0 auto;
+}
+
+.table-section-card {
+  background: #fff;
+  border-radius: 0.8rem;
+  border: 0.1rem solid #edf2f7;
+  /* overflow: hidden; */
+}
+
+.settings-content-body {
+  padding: 0 2.4rem 2.4rem 2.4rem;
+}
+
+.settings-flat-row {
+  padding: 2.4rem 0;
+  border-bottom: 1px solid #edf2f7;
+  display: flex;
+  flex-direction: column;
+}
+
+.settings-flat-row:first-of-type {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.no-border {
+  border-bottom: none;
+}
+
+.date-main {
+  display: block;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #1e293b;
+  margin-bottom: 0.4rem;
+}
+
+.time-sub {
+  color: #64748b;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.settings-integrated-form {
+  width: 100%;
+  max-width: 55rem;
+  margin-top: 1rem;
+}
+
+.field-group {
+  margin-bottom: 2rem;
+}
+
+.field-group label {
+  display: block;
+  margin-bottom: 0.8rem;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #64748b;
+}
+
+.field-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+}
+
+.btn-update {
+  background: #1e293b;
+  color: white;
+  border: none;
+  padding: 1rem 2.4rem;
+  border-radius: 0.8rem;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1.2rem;
+  transition: opacity 0.2s;
+}
+
+.btn-update:hover {
+  opacity: 0.9;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 4.8rem;
+  height: 2.4rem;
+}
+
+.switch input {
+  display: none;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #cbd5e0;
+  transition: 0.4s;
+  border-radius: 3.4rem;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 1.8rem;
+  width: 1.8rem;
+  left: 0.3rem;
+  bottom: 0.3rem;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #1e293b;
+}
+
+input:checked + .slider:before {
+  transform: translateX(24px);
+}
